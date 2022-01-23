@@ -1,0 +1,51 @@
+.footer {
+  @include font;
+  background-color: $background-company;
+}
+.footer__container {
+  max-width: 684px;
+  padding: 110px 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__title {
+  margin: 0;
+  padding-bottom: 20px;
+  color: $secondary-black;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+}
+.footer__descr {
+  margin: 0;
+  color: $secondary-gray;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.footer__social {
+}
+.footer__social-list {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__social-item {
+}
+.footer__social-link {
+}
+.footer__social-link--tw {
+}
+.footer__social-link--ss {
+}
+.footer__social-link--fb {
+}
+.footer__social-link--ss-two {
+}
+.footer__social-link--em {
+}
+.footer__social-link--in {
+}

@@ -1,0 +1,28 @@
+.photo__container {
+  @include centering;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 75px;
+}
+.photo__title {
+  max-width: 1039px;
+  margin: 0;
+  padding-bottom: 75px;
+  text-align: center;
+  color: $primary-black;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.photo__block-container {
+  display: flex;
+  flex-flow: column wrap;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 1330px;
+}
+.photo__photo-block {
+  display: flex;
+  flex: auto;
+}

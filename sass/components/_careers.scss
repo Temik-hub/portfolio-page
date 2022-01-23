@@ -1,0 +1,20 @@
+.careers__container {
+  margin: 0 auto;
+  max-width: 1246px;
+  padding: 75px 20px;
+}
+.careers__title {
+  margin: 0;
+  padding-bottom: 75px;
+  text-align: center;
+  color: $primary-gray;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+}
+.careers__caption-title {
+  display: none;
+}
+.careers__table {
+  width: 100%;
+}

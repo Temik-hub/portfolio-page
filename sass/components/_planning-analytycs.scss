@@ -1,0 +1,38 @@
+.planning-analytycs__container {
+  margin: 0 auto;
+  max-width: 1246px;
+  padding: 75px 20px;
+}
+.planning-analytycs__list {
+  display: flex;
+  justify-content: space-between;
+}
+.planning-analytycs__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 361px;
+}
+.planning-analytycs__image {
+  width: 140px;
+  height: 140px;
+  border-radius: 6px;
+  background-color: $lighten-violet;
+}
+.planning-analytycs__subtitle {
+  margin: 0;
+  padding: 40px 0 20px 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: $secondary-black;
+}
+.planning-analytycs__descr {
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: $secondary-gray;
+}

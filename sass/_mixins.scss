@@ -1,0 +1,15 @@
+@mixin centering {
+  padding: 40px 20px;
+  margin: 0 auto;
+  max-width: 1246px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  // padding: 87px 20px 20px 20px;
+}
+@mixin font {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+}

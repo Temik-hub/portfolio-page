@@ -1,0 +1,64 @@
+
+.hero__container {
+  @include centering;
+  flex-wrap: wrap;
+  
+  padding-bottom: 99px;
+}
+.hero__content-text {
+  margin-right: 20px;
+  max-width: 596px;
+}
+.hero__upper-line { 
+  display: inline-block;
+  height: 1px;
+  width: 102px;
+  background-color: $primary-violet;
+}
+.hero__person-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: $secondary-violet;
+}
+.hero__title {
+  padding: 40px 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+  color: $primary-black;
+}
+.hero__descr {
+  margin: 0;
+  font-weight: 400;
+  color: $primary-gray;
+  padding-bottom: 40px;
+}
+.hero__button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 32px;
+  border: 1px solid $primary-violet;
+  border-radius: 6px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+// .hero__button--active {
+// }
+.hero__small-text {
+  display: block;
+  padding: 20px 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: $primary-gray;
+}
+.hero__bottom-line {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background-color: #E5E7EB;
+}
+// .hero__content-photo {
+// }
