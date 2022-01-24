@@ -20,6 +20,7 @@
   text-align: center;
 }
 .footer__descr {
+  padding-bottom: 103px;
   margin: 0;
   color: $secondary-gray;
   font-weight: 400;
@@ -28,24 +29,11 @@
   text-align: center;
 }
 .footer__social {
+  width: 100%;
+  max-width: 520px;
 }
 .footer__social-list {
+  align-items: center;
   display: flex;
   justify-content: space-between;
-}
-.footer__social-item {
-}
-.footer__social-link {
-}
-.footer__social-link--tw {
-}
-.footer__social-link--ss {
-}
-.footer__social-link--fb {
-}
-.footer__social-link--ss-two {
-}
-.footer__social-link--em {
-}
-.footer__social-link--in {
 }

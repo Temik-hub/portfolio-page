@@ -1,15 +1,11 @@
-// .skills {
-// }
 .skills__container {
   @include centering;
   flex-direction: column;
   align-items: center;
-  
 }
-
 .skills__title {
   max-width: 1039px;
-  padding: 99px 0 75px 0;
+  padding: 60px 0 75px 0;
   margin: 0;
   font-weight: 600;
   font-size: 48px;
@@ -28,7 +24,7 @@
 }
 .skills__cards {
   display: flex;
-  padding: 75px 0;
+  padding: 55px 0;
   
 }
 .skills__list {
@@ -56,6 +52,7 @@
   color: $primary-gray;
 }
 .skills__button {
+  display: block;
   margin: 0;
   padding: 0;
   color: $primary-violet;
@@ -64,20 +61,33 @@
   font-size: 12px;
   line-height: 16px;
 }
-.skills__trusted-companies-container {
+.skills__trusted-companies-block {
   background-color: $background-company;
+  margin: 75px 0;
+}
+.skills__trusted-companies-container {
+  max-width: 1172px;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
-  height: 259px;
-  margin-bottom: 75px;
+  justify-content: center;
+  min-height: 259px;
+  margin: 0 auto;
+}
+.skills__trusted-stroke {
+  margin-bottom: 20px;
+  align-self: start;
+  color: $secondary-gray;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
 }
 .skills__trusted-companies {
-  margin: 0 auto;
   width: 100%;
   display: flex;
-  flex-direction: row;
-  max-width: 1206px;
   align-items: center;
   justify-content: space-between;
+}
+.skills__company-logo {
+  display: flex;
 }
