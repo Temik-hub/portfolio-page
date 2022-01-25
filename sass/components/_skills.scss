@@ -2,6 +2,7 @@
   @include centering;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 20px;
 }
 .skills__title {
   max-width: 1039px;
@@ -20,12 +21,10 @@
   align-items: center;
   min-width: 440px;
   margin-right: 50px;
- 
 }
 .skills__cards {
   display: flex;
-  padding: 55px 0;
-  
+  padding: 75px 0;
 }
 .skills__list {
   display: flex;
@@ -52,14 +51,24 @@
   color: $primary-gray;
 }
 .skills__button {
-  display: block;
+  display: inline-block;
+  position: relative;
   margin: 0;
   padding: 0;
+  padding-right: 20px;
   color: $primary-violet;
   text-decoration: none;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 65px;
+    width: 16px;
+    height: 16px;
+    background-image: url("/images/icons/arrow-right.svg");
+  }
 }
 .skills__trusted-companies-block {
   background-color: $background-company;

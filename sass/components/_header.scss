@@ -1,11 +1,11 @@
 .header {
   @include font;
-  margin-top: 47px;
   margin-bottom: 109px;
 }
 .header__container {
   @include centering;
   align-items: center;
+  padding-top: 87px;
 }
 .header__logo {
   display: flex;
