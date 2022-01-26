@@ -2,6 +2,9 @@
   margin: 0 auto;
   max-width: 1246px;
   padding: 75px 20px;
+  @media (max-width: 1200px) {
+    padding: 40px 20px;
+  }
 }
 .planning-analytycs__list {
   display: flex;
@@ -12,6 +15,9 @@
   flex-direction: column;
   align-items: center;
   max-width: 361px;
+  &:not(:last-child) {
+    padding-right: 20px;
+  }
 }
 .planning-analytycs__image {
   width: 140px;

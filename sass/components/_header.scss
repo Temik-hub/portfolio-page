@@ -1,6 +1,9 @@
 .header {
   @include font;
   margin-bottom: 109px;
+  @media (max-width: 1200px) {
+    margin-bottom: 0;
+  }
 }
 .header__container {
   @include centering;

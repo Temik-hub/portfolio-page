@@ -1,23 +1,23 @@
 @font-face {
-  font-family: "Inter";
+  font-family: Inter;
   src: url(/fonts/Inter/Inter-Regular.woff2);
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
-  font-family: "Inter";
+  font-family: Inter;
   src: url(/fonts/Inter/Inter-Medium.woff2);
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
-  font-family: "Inter";
+  font-family: Inter;
   src: url(/fonts/Inter/Inter-SemiBold.woff2);
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
-  font-family: "Inter";
+  font-family: Inter;
   src: url(/fonts/Inter/Inter-Bold.woff2);
   font-weight: 700;
   font-style: normal;
@@ -35,7 +35,7 @@ body {
 }
 
 main {
-  font-family: "Inter";
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
@@ -74,11 +74,16 @@ img {
 }
 
 .header {
-  font-family: "Inter";
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
   margin-bottom: 109px;
+}
+@media (max-width: 1200px) {
+  .header {
+    margin-bottom: 0;
+  }
 }
 
 .header__container {
@@ -165,11 +170,24 @@ img {
   flex-wrap: wrap;
   padding-bottom: 90px;
 }
+@media (max-width: 1200px) {
+  .hero__container {
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    padding-bottom: 40px;
+  }
+}
 
 .hero__content-text {
   padding-top: 19px;
   margin-right: 20px;
   max-width: 596px;
+}
+@media (max-width: 1200px) {
+  .hero__content-text {
+    max-width: 450px;
+    padding-top: 60px;
+  }
 }
 
 .hero__person-name {
@@ -198,12 +216,27 @@ img {
   line-height: 72px;
   color: #1f2937;
 }
+@media (max-width: 1200px) {
+  .hero__title {
+    padding: 22px 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
 
 .hero__descr {
   margin: 0;
   font-weight: 400;
   color: #6b7280;
   padding-bottom: 40px;
+}
+@media (max-width: 1200px) {
+  .hero__descr {
+    max-width: 500px;
+    font-size: 14px;
+  }
 }
 
 .hero__button {
@@ -257,32 +290,57 @@ img {
   line-height: 48px;
   text-align: center;
 }
+@media (max-width: 1200px) {
+  .skills__title {
+    padding: 40px 0 40px 0;
+    font-size: 45px;
+  }
+}
 
 .skills__title--purple {
   color: #3730a3;
 }
 
-.skills__image {
+.skills__image-container {
   display: flex;
   align-items: center;
   min-width: 440px;
   margin-right: 50px;
 }
 
+@media (max-width: 1200px) {
+  .skills__image {
+    width: 90%;
+  }
+}
+
 .skills__cards {
   display: flex;
   padding: 75px 0;
+}
+@media (max-width: 1200px) {
+  .skills__cards {
+    padding: 40px 0 40px 0;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 
 .skills__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .skills__item {
   width: 311px;
+  padding-right: 20px;
+}
+@media (max-width: 1200px) {
+  .skills__item {
+    width: 240px;
+  }
 }
 
 .skills__subtitle {
@@ -326,6 +384,12 @@ img {
 .skills__trusted-companies-block {
   background-color: #fef2f2;
   margin: 75px 0;
+  padding: 0 20px;
+}
+@media (max-width: 1200px) {
+  .skills__trusted-companies-block {
+    margin: 0;
+  }
 }
 
 .skills__trusted-companies-container {
@@ -370,6 +434,12 @@ img {
   padding-top: 75px;
   padding-bottom: 75px;
 }
+@media (max-width: 1200px) {
+  .photo__container {
+    padding-top: 50px;
+    padding-bottom: 40px;
+  }
+}
 
 .photo__title {
   max-width: 1039px;
@@ -381,15 +451,25 @@ img {
   font-size: 48px;
   line-height: 48px;
 }
+@media (max-width: 1200px) {
+  .photo__title {
+    padding-bottom: 40px;
+  }
+}
 
 .photo__block-container {
   padding-top: 75px;
-  max-width: 1185px;
+  max-width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+@media (max-width: 1200px) {
+  .photo__block-container {
+    padding-top: 40px;
+  }
 }
 
 .photo__column-left-block {
@@ -398,10 +478,13 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 100%;
 }
 
 .photo__column-right-block {
+  max-width: 536px;
   display: flex;
+  width: 100%;
 }
 
 .photo__photo-item {
@@ -445,6 +528,11 @@ img {
   max-width: 1246px;
   padding: 75px 20px;
 }
+@media (max-width: 1200px) {
+  .planning-analytycs__container {
+    padding: 40px 20px;
+  }
+}
 
 .planning-analytycs__list {
   display: flex;
@@ -456,6 +544,9 @@ img {
   flex-direction: column;
   align-items: center;
   max-width: 361px;
+}
+.planning-analytycs__item:not(:last-child) {
+  padding-right: 20px;
 }
 
 .planning-analytycs__image {
@@ -500,7 +591,7 @@ img {
 }
 
 .footer {
-  font-family: "Inter";
+  font-family: Inter, Arial, sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 28px;
@@ -514,6 +605,11 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media (max-width: 1200px) {
+  .footer__container {
+    padding: 40px 10px;
+  }
 }
 
 .footer__title {
@@ -534,6 +630,11 @@ img {
   font-size: 18px;
   line-height: 28px;
   text-align: center;
+}
+@media (max-width: 1200px) {
+  .footer__descr {
+    padding-bottom: 40px;
+  }
 }
 
 .footer__social {
@@ -559,6 +660,11 @@ img {
   max-width: 1246px;
   padding: 75px 20px;
 }
+@media (max-width: 1200px) {
+  .careers__container {
+    padding: 40px 20px;
+  }
+}
 
 .careers__title {
   margin: 0;
@@ -569,6 +675,11 @@ img {
   font-size: 48px;
   line-height: 48px;
 }
+@media (max-width: 1200px) {
+  .careers__title {
+    padding-bottom: 40px;
+  }
+}
 
 .careers__caption-title {
   display: none;
@@ -578,6 +689,12 @@ img {
   max-width: 1187px;
   width: 100%;
   table-layout: fixed;
+  padding-top: 75px;
+}
+@media (max-width: 1200px) {
+  .careers__table {
+    padding-top: 40px;
+  }
 }
 
 .careers__table-head {
@@ -590,7 +707,6 @@ img {
 }
 
 .careers__table-heading {
-  padding-top: 75px;
   padding-bottom: 40px;
 }
 .careers__table-heading:nth-child(2) {
@@ -598,6 +714,11 @@ img {
 }
 .careers__table-heading:last-child {
   text-align: right;
+}
+@media (max-width: 1200px) {
+  .careers__table-heading {
+    padding-left: 20px;
+  }
 }
 
 .careers__table-body {
@@ -615,6 +736,11 @@ img {
 }
 .careers__table-data:last-child {
   text-align: right;
+}
+@media (max-width: 1200px) {
+  .careers__table-data {
+    padding: 20px;
+  }
 }
 
 .careers__font-bold {

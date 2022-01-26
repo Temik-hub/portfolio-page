@@ -4,6 +4,9 @@
   flex-direction: column;
   max-width: 1246px;
   padding: 75px 20px;
+  @media (max-width: 1200px) {
+    padding: 40px 20px;
+  }
 }
 .careers__title {
   margin: 0;
@@ -13,6 +16,9 @@
   font-weight: 600;
   font-size: 48px;
   line-height: 48px;
+  @media (max-width: 1200px) {
+    padding-bottom: 40px;
+  }
 }
 .careers__caption-title {
   display: none;
@@ -21,6 +27,10 @@
   max-width: 1187px;
   width: 100%;
   table-layout: fixed;
+  padding-top: 75px;
+  @media (max-width: 1200px) {
+    padding-top: 40px;
+  }
 }
 .careers__table-head {
   text-align: left;
@@ -31,13 +41,16 @@
   color: $primary-gray;
 }
 .careers__table-heading {
-  padding-top: 75px;
+  
   padding-bottom: 40px;
   &:nth-child(2){
     text-align: center;
   }
   &:last-child {
     text-align: right;
+  }
+  @media (max-width: 1200px) {
+    padding-left: 20px;
   }
 }
 .careers__table-body {
@@ -53,6 +66,9 @@
   }
   &:last-child {
     text-align: right;
+  }
+  @media (max-width: 1200px) {
+    padding: 20px;
   }
 }
 .careers__font-bold {
