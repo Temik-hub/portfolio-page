@@ -1,0 +1,124 @@
+.skills__container {
+  @include centering;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.skills__title {
+  max-width: 1039px;
+  padding: 60px 0 75px 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  @media (max-width: 1200px) {
+    padding: 40px 0 40px 0;
+    font-size: 45px;
+  }
+}
+.skills__title--purple {
+  color: $primary-violet;
+}
+.skills__image-container {
+  display: flex;
+  align-items: center;
+  min-width: 440px;
+  margin-right: 50px;
+}
+.skills__image {
+  @media (max-width: 1200px) {
+    width: 90%;
+  }
+}
+.skills__cards {
+  display: flex;
+  padding: 75px 0;
+  @media (max-width: 1200px) {
+    padding: 40px 0 40px 0;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.skills__item {
+  width: 311px;
+  padding-right: 20px;
+  @media (max-width: 1200px) {
+    width: 240px;
+  }
+}
+.skills__subtitle {
+  margin: 0;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: $primary-black;
+}
+.skills__descr {
+  margin: 0;
+  padding: 20px 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $primary-gray;
+}
+.skills__button {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  padding-right: 20px;
+  color: $primary-violet;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 65px;
+    width: 16px;
+    height: 16px;
+    background-image: url("/images/icons/arrow-right.svg");
+  }
+}
+.skills__trusted-companies-block {
+  background-color: $background-company;
+  margin: 75px 0;
+  padding: 0 20px;
+  @media (max-width: 1200px) {
+    margin: 0;
+  }
+}
+.skills__trusted-companies-container {
+  max-width: 1172px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 259px;
+  margin: 0 auto;
+}
+.skills__trusted-stroke {
+  margin-bottom: 20px;
+  align-self: start;
+  color: $secondary-gray;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+}
+.skills__trusted-companies {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills__company-logo {
+  display: flex;
+}

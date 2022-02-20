@@ -1,0 +1,92 @@
+.hero__container {
+  @include centering;
+  flex-wrap: wrap;
+  padding-bottom: 90px;
+    @media (max-width: 1200px) {
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    padding-bottom: 40px;
+  }
+}
+.hero__content-text {
+  padding-top: 19px;
+  margin-right: 20px;
+  max-width: 596px;
+
+  @media (max-width: 1200px) {
+    max-width: 450px;
+    padding-top: 60px;
+  }
+}
+.hero__person-name {
+  position: relative;
+  padding-left: 112px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: $secondary-violet;
+  &::before {
+    content: "";
+    position: absolute;
+    top: 12px;
+    left: 0;
+    height: 1px;
+    width: 102px;
+    background-color: $primary-violet;
+  } 
+}
+.hero__title {
+  padding: 40px 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 72px;
+  color: $primary-black;
+  @media (max-width: 1200px) {
+    padding: 22px 0;
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+  }
+}
+.hero__descr {
+  margin: 0;
+  font-weight: 400;
+  color: $primary-gray;
+  padding-bottom: 40px;
+  @media (max-width: 1200px) {
+    max-width: 500px;
+    font-size: 14px;
+  }
+}
+.hero__button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px 32px;
+  border: 1px solid $primary-violet;
+  border-radius: 6px;
+  margin-right: 20px;
+  transition: .5s;
+  &:hover {
+    background-color: $primary-violet;
+    color: #fff;
+  }
+}
+.hero__small-text {
+  display: block;
+  padding: 10px 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: $primary-gray;
+}
+.hero__content-photo {
+ 
+}
+.hero__bottom-line {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  background-color: #E5E7EB;
+}

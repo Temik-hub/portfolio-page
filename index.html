@@ -4,15 +4,16 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <title>Portfolio</title>
 </head>
 <body>
   
   <header class="header">
     <div class="header__container">
-      <a href="#" class="header__logo" aria-label="Page logo">D</a>
+      <a href="#" class="header__logo header__logo--slant" aria-label="Page logo">D</a>
       <nav class="header__menu">
-        <ul class="header__list">
+        <ul class="header__list list-reset">
           <li class="header__item"><a href="#" class="header__link">Services</a></li>
           <li class="header__item"><a href="#" class="header__link">Works</a></li>
           <li class="header__item"><a href="#" class="header__link">Blog</a></li>
@@ -25,92 +26,121 @@
     <section class="hero">
       <div class="hero__container">
         <div class="hero__content-text">
-          <span class="hero__person-name"></span>
+          <div class="hero__person-name">Jessica Strosin</div>
           <h1 class="hero__title">Creative thinker Minimalism lover</h1>
           <p class="hero__descr">Hi, I&rsquo;m Jessica. I&rsquo;m UI/UX Designer. If&nbsp;you are looking for Designer to&nbsp;build your brands and grow your business Let&rsquo;s shake hands with&nbsp;me.</p>
-          <a href="#" class="hero__button hero__button--active">Hire me</a>
-          <a href="#" class="hero__button">Read more</a>
+          <a href="#" class="hero__button hero__button--active btn-reset">Hire me</a>
+          <a href="#" class="hero__button btn-reset">Read more</a>
+          <span class="hero__bottom-line"></span>
           <span class="hero__small-text">I&nbsp;am currently open for part-time work.</span>
         </div>
-        <div class="hero__content-photo"></div>
+        <div class="hero__content-photo">
+          <img class="hero__image" src="images/photo.png" alt="Author photo">
+        </div>
       </div>
     </section>
     <section class="skills">
       <div class="skills__container">
-        <div class="skills__slogan">
-          <h2 class="skills__title">From beginning ideas to&nbsp;individual integrity, rich identity from the line <span class="skills__title--purple">on&nbsp;the paper to&nbsp;final projects</span> on&nbsp;the paper to&nbsp;final projects</h2>
-        </div>
-        <div class="skills__image"></div>
-        <div class="skills__navigation">
-          <ul class="skills__list">
+        <h2 class="skills__title">From beginning ideas to&nbsp;individual integrity, rich identity from the line <span class="skills__title--purple">on&nbsp;the paper to&nbsp;final projects</span></h2>
+        <div class="skills__cards">
+          <div class="skills__image-container">
+            <img class="skills__image" src="images/image-skills.png" alt="Photo">
+          </div>
+          
+          <ul class="skills__list list-reset">
             <li class="skills__item">
               <h3 class="skills__subtitle">Web design</h3>
-              <p class="skills__descr">Provide our customers with optimized user-friendly experience to&nbsp;increase the efficiency of&nbsp;digital products.</p>
+              <p class="skills__descr">Provide our customers with optimizeduser-friendly experience to&nbsp;increase the efficiency of&nbspdigital products.</p>
               <a href="#" class="skills__button">See Works</a>
             </li>
             <li class="skills__item">
               <h3 class="skills__subtitle">Mobile design</h3>
-              <p class="skills__descr">Mobile application development is&nbsp;a&nbsp;highlight that businesses are interested in&nbsp;at&nbsp;the moment and in&nbsp;the future.</p>
+              <p class="skills__descr">Mobile application development is&nbsp;anbsp;highlight that businesses are interested in&nbsp;at&nbsp;themoment and in&nbsp;the future.</p>
               <a href="#" class="skills__button">See Works</a>
             </li>
             <li class="skills__item">
               <h3 class="skills__subtitle">Branding</h3>
-              <p class="skills__descr">Understanding the business and their target customers, I&rsquo;m the bridges to&nbsp;bring the brand closer to&nbsp;their clients.</p>
+              <p class="skills__descr">Understanding the business and theirtarget customers, I&rsquo;m the bridges to&nbsp;bring the brandcloser to&nbsp;their clients.</p>
               <a href="#" class="skills__button">See Works</a>
             </li>
             <li class="skills__item">
               <h3 class="skills__subtitle">3D Modeling</h3>
-              <p class="skills__descr">Help you translate your existing design or&nbsp;concept into CAD or&nbsp;to&nbsp;work with you to&nbsp;develop the ideal design. 3D&nbsp;Models great for modern digital art</p>
+              <p class="skills__descr">Help you translate your existing designor&nbsp;concept into CAD or&nbsp;to&nbsp;work with you to&nbspdevelop the ideal design. 3D&nbsp;Models great for modern digitalart</p>
               <a href="#" class="skills__button">See Works</a>
             </li>
             <li class="skills__item">
               <h3 class="skills__subtitle">Photography</h3>
-              <p class="skills__descr">While stock photography is&nbsp;a&nbsp;great option for sourcing high-quality photos, it&rsquo;s important that you choose your photos thoughtfully.</p>
+              <p class="skills__descr">While stock photography is&nbsp;a&nbspgreat option for sourcing high-quality photos, it&rsquo;simportant that you choose your photos thoughtfully.</p>
               <a href="#" class="skills__button">See Works</a>
             </li>
             <li class="skills__item">
               <h3 class="skills__subtitle">Video creating</h3>
-              <p class="skills__descr">Create high-impact social videos with our easy video maker. Use custom video templates to&nbsp;find the right story for your business.</p>
+              <p class="skills__descr">Create high-impact social videos with oureasy video maker. Use custom video templates to&nbsp;find theright story for your business.</p>
               <a href="#" class="skills__button">See Works</a>
             </li>
-          </ul>
+          </ul> 
+        </div>
+        
+      </div>
+      <div class="skills__trusted-companies-block">
+        <div class="skills__trusted-companies-container">
+          <div class="skills__trusted-stroke">Trusted&nbsp;by</div>
+          <div class="skills__trusted-companies">  
+            
+            <a href="#" class="skills__company-logo"><img src="images/Alphabet.png" alt="Alphabet company"></a>
+            <a href="#" class="skills__company-logo"><img src="images/shopify.png" alt="Shopify company"></a>
+            <a href="#" class="skills__company-logo"><img src="images/amazon.png" alt="Amazon company"></a>
+            <a href="#" class="skills__company-logo"><img src="images/google.png" alt="Google company"></a>
+            <a href="#" class="skills__company-logo"><img src="images/netflix.png" alt="Netflix company"></a>
+          </div> 
         </div>
       </div>
-      <footer class="skills__footer">
-        <span class="skills__footer-stroke">Trusted&nbsp;by</span>
-        <div class="skills__footer-companies">
-          <a href="#" class="skills__footer-logo"></a>
-          <a href="#" class="skills__footer-logo"></a>
-          <a href="#" class="skills__footer-logo"></a>
-          <a href="#" class="skills__footer-logo"></a>
-          <a href="#" class="skills__footer-logo"></a>
-        </div>
-      </footer>
     </section>
     <section class="photo">
-      <!-- по этому блоку нужна консультация -->
       <div class="photo__container">
-        <h2>It&rsquo;s great to&nbsp;always give the customer the best feed.</h2>
-        <div class="photo__block">
-          <a href="#" class="photo__button">Project title here <span>Photograph</span></a>
+        <h2 class="photo__title">It&rsquo;s great to&nbsp;always give the customer the best feed.</h2>
+        <div class="photo__block-container">
+          <div class="photo__column-left-block">
+            <div class="photo__photo-item">
+              <img class="photo__image" src="images/photo-car.png" alt="Car photo">
+              <a href="#" class="photo__button btn-reset">Project title here <span class="photo__button--small">Photograph</span></a>
+            </div> 
+            <div class="photo__photo-item">
+              <img class="photo__image" src="images/photo-street.png" alt="Street photo">
+              <a href="#" class="photo__button">Project title here <span class="photo__button--small">Photograph</span></a>
+            </div>    
+          </div>
+          <div class="photo__column--right-block">
+            <div class="photo__photo-item">
+              <img class="photo__image" src="images/photo-wall.png" alt="Wall photo">
+              <a href="#" class="photo__button">Project title here <span class="photo__button--small">Photograph</span></a>
+            </div>
+          </div>
+          <div class="photo__row-block">
+            <div class="photo__photo-item">
+              <img class="photo__image" src="images/photo-trees.png" alt="Trees photo">
+              <a href="#" class="photo__button">Project title here <span class="photo__button--small">Photograph</span></a>
+            </div>
+          </div>
         </div>
+      </div>
       </div>
     </section>
     <section class="planning-analytycs">
       <div class="planning-analytycs__container">
-        <ul class="planning-analytycs__list">
+        <ul class="planning-analytycs__list list-reset">
           <li class="planning-analytycs__item">
-            <span class="planning-analytycs__image"></span>
+            <div class="planning-analytycs__image planning-analytycs__image--business"></div>
             <h3 class="planning-analytycs__subtitle">Business planning</h3>
             <p class="planning-analytycs__descr">Excepteur sint occaecat cupidatat non proident, sunt in&nbsp;culpa qui officia deserunt mollit anim id&nbsp;est laborum.</p>
           </li>
           <li class="planning-analytycs__item">
-            <span class="planning-analytycs__image"></span>
+            <div class="planning-analytycs__image planning-analytycs__image--dollar"></div>
             <h3 class="planning-analytycs__subtitle">Financial planning</h3>
             <p class="planning-analytycs__descr">Excepteur sint occaecat cupidatat non proident, sunt in&nbsp;culpa qui officia deserunt mollit anim id&nbsp;est laborum.</p>
           </li>
           <li class="planning-analytycs__item">
-            <span class="planning-analytycs__image"></span>
+            <div class="planning-analytycs__image planning-analytycs__image--search"></div>
             <h3 class="planning-analytycs__subtitle">Market Analytics</h3>
             <p class="planning-analytycs__descr">Excepteur sint occaecat cupidatat non proident, sunt in&nbsp;culpa qui officia deserunt mollit anim id&nbsp;est laborum.</p>
           </li>
@@ -121,44 +151,44 @@
       <div class="careers__container">
         <h2 class="careers__title">Careers</h2>
         <table class="careers__table">
-          <caption>Careers</caption>
-          <thead>
-            <tr>
-              <th>Company</th>
-              <th>Position</th>
-              <th>Year</th>
+          <caption class="careers__caption-title">Careers</caption>
+          <thead class="careers__table-head">
+            <tr class="careers__table-row">
+              <th class="careers__table-heading">Company</th>
+              <th class="careers__table-heading">Position</th>
+              <th class="careers__table-heading">Year</th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <td><span>Massa Fames</span> / New York</td>
-              <td>Junior Front-End Developer</td>
-              <td>2016</td>
+          <tbody class="careers__table-body">
+            <tr class="careers__table-row">
+              <td class="careers__table-data"><span class="careers__font-bold">Massa Fames</span> / New York</td>
+              <td class="careers__table-data">Junior Front-End Developer</td>
+              <td class="careers__table-data">2016</td>
             </tr>
-            <tr>
-              <td><span>Massa Fames</span> / New York</td>
-              <td>Junior Front-End Developer</td>
-              <td>2016</td>
+            <tr class="careers__table-row">
+              <td class="careers__table-data"><span class="careers__font-bold">Massa Fames</span> / New York</td>
+              <td class="careers__table-data">Junior Front-End Developer</td>
+              <td class="careers__table-data">2016</td>
             </tr>
-            <tr>
-              <td><span>Massa Fames</span> / New York</td>
-              <td>Junior Front-End Developer</td>
-              <td>2016</td>
+            <tr class="careers__table-row">
+              <td class="careers__table-data"><span class="careers__font-bold">Massa Fames</span> / New York</td>
+              <td class="careers__table-data">Junior Front-End Developer</td>
+              <td class="careers__table-data">2016</td>
             </tr>
-            <tr>
-              <td><span>Massa Fames</span> / New York</td>
-              <td>Junior Front-End Developer</td>
-              <td>2016</td>
+            <tr class="careers__table-row">
+              <td class="careers__table-data"><span class="careers__font-bold">Massa Fames</span> / New York</td>
+              <td class="careers__table-data">Junior Front-End Developer</td>
+              <td class="careers__table-data">2016</td>
             </tr>
-            <tr>
-              <td><span>Massa Fames</span> / New York</td>
-              <td>Junior Front-End Developer</td>
-              <td>2016</td>
+            <tr class="careers__table-row">
+              <td class="careers__table-data"><span class="careers__font-bold">Massa Fames</span> / New York</td>
+              <td class="careers__table-data">Junior Front-End Developer</td>
+              <td class="careers__table-data">2016</td>
             </tr>
-            <tr>
-              <td><span>Massa Fames</span> / New York</td>
-              <td>Junior Front-End Developer</td>
-              <td>2016</td>
+            <tr class="careers__table-row">
+              <td class="careers__table-data"><span class="careers__font-bold">Massa Fames</span> / New York</td>
+              <td class="careers__table-data">Junior Front-End Developer</td>
+              <td class="careers__table-data">2016</td>
             </tr>
           </tbody>
         </table>
@@ -170,13 +200,57 @@
       <h2 class="footer__title">Contact with&nbsp;me</h2>
       <p class="footer__descr">I&rsquo;m not currently taking on&nbsp;new client work but feel free to&nbsp;contact me&nbsp;for any other inquiries.</p>
       <div class="footer__social">
-        <ul class="footer__social-list">
-          <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link--tw" target="_blank" aria-label="Link to Twitter"></a></li>
-          <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link--ss" target="_blank" aria-label="Link to Some site"></a></li>
-          <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link--fb" target="_blank" aria-label="Link to Facebook"></a></li>
-          <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link--ss-two" target="_blank" aria-label="Link to Some site"></a></li>
-          <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link--em" target="_blank" aria-label="Link to Email"></a></li>
-          <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link--in" target="_blank" aria-label="Link to Instagram"></a></li>
+        <ul class="footer__social-list list-reset">
+          <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link--tw" target="_blank" aria-label="Link to Twitter">
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0_1_214)">
+              <path d="M33.5417 4.37502C32.1451 5.36009 30.5989 6.11351 28.9625 6.60627C28.0842 5.59639 26.9169 4.88061 25.6186 4.55574C24.3202 4.23087 22.9534 4.31259 21.703 4.78984C20.4526 5.26709 19.379 6.11685 18.6273 7.22419C17.8755 8.33152 17.4821 9.64301 17.5 10.9813V12.4396C14.9372 12.5061 12.3977 11.9377 10.1077 10.785C7.81775 9.63242 5.84837 7.93136 4.37499 5.83335C4.37499 5.83335 -1.45834 18.9583 11.6667 24.7917C8.66326 26.8304 5.08543 27.8526 1.45833 27.7083C14.5833 35 30.625 27.7083 30.625 10.9375C30.6237 10.5313 30.5846 10.1261 30.5083 9.7271C31.9967 8.25928 33.047 6.40606 33.5417 4.37502V4.37502Z" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </g>
+              <defs>
+              <clipPath id="clip0_1_214">
+              <rect width="35" height="35" fill="white"/>
+              </clipPath>
+              </defs>
+            </svg>
+            <span class="visually-hidden">Twitter</span>
+          </a></li>
+          <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link--dr" target="_blank" aria-label="Link to Dribble">
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.5 32.0834C25.5542 32.0834 32.0833 25.5542 32.0833 17.5001C32.0833 9.44593 25.5542 2.91675 17.5 2.91675C9.44585 2.91675 2.91667 9.44593 2.91667 17.5001C2.91667 25.5542 9.44585 32.0834 17.5 32.0834Z" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12.4833 4.0105C18.8563 12.8042 21.2625 17.748 24.1938 29.8522M27.8979 7.423C22.4729 13.7667 14.8604 15.6772 3.28125 15.9542M31.7188 18.7251C26.6146 17.3688 22.05 17.5292 18.6813 18.7251C14.9188 20.0667 11.375 22.8959 7.83125 27.9417" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="visually-hidden">Dribble</span>
+          </a></li>
+          <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link--fb" target="_blank" aria-label="Link to Facebook">
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M26.25 2.91675H21.875C19.9411 2.91675 18.0865 3.68497 16.719 5.05243C15.3516 6.41988 14.5833 8.27454 14.5833 10.2084V14.5834H10.2083V20.4167H14.5833V32.0834H20.4167V20.4167H24.7917L26.25 14.5834H20.4167V10.2084C20.4167 9.82164 20.5703 9.45071 20.8438 9.17722C21.1173 8.90373 21.4882 8.75008 21.875 8.75008H26.25V2.91675Z" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="visually-hidden">Facebook</span>
+          </a></li>
+          <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link--cp" target="_blank" aria-label="Link to Codepen"><svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M17.5 2.91675L32.0833 12.3959V22.6042L17.5 32.0834L2.91667 22.6042V12.3959L17.5 2.91675Z" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M17.5 32.0834V22.6042" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M32.0833 12.3958L17.5 22.6041L2.91667 12.3958" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M2.91667 22.6041L17.5 12.3958L32.0833 22.6041" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M17.5 2.91675V12.3959" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="visually-hidden">Codepen</span>
+            </a></li>
+          <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link--as" target="_blank" aria-label="Link to At-sign">
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M17.5 23.3334C20.7217 23.3334 23.3333 20.7217 23.3333 17.5001C23.3333 14.2784 20.7217 11.6667 17.5 11.6667C14.2783 11.6667 11.6667 14.2784 11.6667 17.5001C11.6667 20.7217 14.2783 23.3334 17.5 23.3334Z" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M23.3333 11.6666V18.9582C23.3333 20.1186 23.7943 21.2314 24.6147 22.0518C25.4352 22.8723 26.548 23.3332 27.7083 23.3332C28.8687 23.3332 29.9815 22.8723 30.8019 22.0518C31.6224 21.2314 32.0833 20.1186 32.0833 18.9582V17.4999C32.0831 14.2085 30.9695 11.0139 28.9235 8.43568C26.8775 5.85743 24.0196 4.04711 20.8143 3.29909C17.609 2.55107 14.2449 2.90934 11.269 4.31565C8.29319 5.72196 5.88058 8.09359 4.4235 11.0449C2.96642 13.9962 2.55057 17.3537 3.24357 20.5713C3.93658 23.789 5.69767 26.6775 8.2405 28.7674C10.7833 30.8572 13.9583 32.0254 17.2493 32.082C20.5402 32.1386 23.7535 31.0803 26.3667 29.0791" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span class="visually-hidden">At-sign</span>              
+          </a></li>
+          <li class="footer__social-item"><a href="#" class="footer__social-link footer__social-link--in " target="_blank" aria-label="Link to Instagram">
+            <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24.7917 2.91675H10.2083C6.18126 2.91675 2.91667 6.18134 2.91667 10.2084V24.7917C2.91667 28.8188 6.18126 32.0834 10.2083 32.0834H24.7917C28.8187 32.0834 32.0833 28.8188 32.0833 24.7917V10.2084C32.0833 6.18134 28.8187 2.91675 24.7917 2.91675Z" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M23.3333 16.5812C23.5133 17.7949 23.306 19.0344 22.7409 20.1235C22.1758 21.2126 21.2817 22.0958 20.1857 22.6474C19.0897 23.199 17.8477 23.391 16.6364 23.1961C15.425 23.0012 14.3059 22.4292 13.4383 21.5616C12.5707 20.6941 11.9988 19.575 11.8039 18.3636C11.6089 17.1522 11.8009 15.9102 12.3526 14.8142C12.9042 13.7183 13.7874 12.8242 14.8764 12.2591C15.9655 11.694 17.2051 11.4866 18.4188 11.6666C19.6568 11.8502 20.8029 12.4271 21.6879 13.3121C22.5729 14.197 23.1498 15.3432 23.3333 16.5812Z" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M25.5208 9.47925H25.5354" stroke="#6B7280" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>              
+          <span class="visually-hidden">Instagram</span>
+        </a></li>
         </ul>
       </div>
     </div>
