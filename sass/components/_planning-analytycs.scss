@@ -25,17 +25,17 @@
   border-radius: 6px;
   background-color: $lighten-violet;
   &--business {
-    background-image: url("/images/business.svg");
+    background-image: url("../images/business.svg");
     background-repeat: no-repeat;
     background-position: center;
   }
   &--dollar {
-    background-image: url("/images/dollar.svg");
+    background-image: url("../images/dollar.svg");
     background-repeat: no-repeat;
     background-position: center;
   }
   &--search {
-    background-image: url("/images/search.svg");
+    background-image: url("../images/search.svg");
     background-repeat: no-repeat;
     background-position: center;
   }

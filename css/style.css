@@ -556,17 +556,17 @@ img {
   background-color: #eeebff;
 }
 .planning-analytycs__image--business {
-  background-image: url("/images/business.svg");
+  background-image: url("../images/business.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 .planning-analytycs__image--dollar {
-  background-image: url("/images/dollar.svg");
+  background-image: url("../images/dollar.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 .planning-analytycs__image--search {
-  background-image: url("/images/search.svg");
+  background-image: url("../images/search.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
