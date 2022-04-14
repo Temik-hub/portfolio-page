@@ -22,6 +22,10 @@
   font-weight: 700;
   font-style: normal;
 }
+html {
+  min-width: 900px;
+}
+
 *,
 *::before,
 *::after {
